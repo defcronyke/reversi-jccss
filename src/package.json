@@ -1,0 +1,21 @@
+{
+  "name": "reversi-jccss-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "base64url": "^1.0.6",
+    "crypto": "0.0.3",
+    "googleapis": "^12.4.0",
+    "jsonwebtoken": "^7.1.9",
+    "pubnub": "^4.0.8"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "author": "JCCSS Dev Team",
+  "license": "ISC"
+}
